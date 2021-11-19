@@ -1,0 +1,31 @@
+Question 1: What do you see in the browser? When you open another tab and perform a click/drag action, what happens?
+
+We can see a bunny thing on the display. We can click and drag the bunny around. If we open the site in another browser, we can see the movements of the bunny in both browsers.
+
+
+
+Question 2: What are some of the differences between TypeScript and JavaScript?
+
+TypeScript is an OOP langauge, while JavaScript is a general purpose scripting language. TypeScript supports modules, whereas JavaScript foes not. Additionally, TypeScript has a feature called steady typing which checks types at compile time
+
+
+
+Question 3: Why is a web application bundler (Parcel, Webpack, Rollup, etc.) useful for modern web projects? What are some features that ParcelJS provides?
+
+Bundlers are used to bundle JavaScript modules into a single JavaScript file that can be executed in the browser. They help manage dependency relationships in your code and load modules in the correct dependency order. They also help with loading assets in the proper dependency order.
+
+ParcelJS provides features such as hot reloading, diagnostics, image optimization, and minification.
+
+
+
+Question 4: What are the different values for the readyState a WebSocket can be in? Briefly describe what each state means. (Hint: check out the Mozilla WebSocket API)
+
+ - 0: CONNECTING - socket has been created but connection is not open yet
+ - 1: OPEN - the connection is open and ready to communicate 
+ - 2: CLOSING - the connection is in the process of closing
+ - 3: CLOSED - the connection is closed or could not be opened
+
+
+Question 5: What's the link to your github repo?
+
+https://github.com/debecerra/cmput404-lab8-nodejs-ws-lab
